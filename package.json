@@ -1,0 +1,21 @@
+{
+  "name": "ebabel-prevent-xss",
+  "version": "1.0.0",
+  "description": "Processes an input string to prevent Cross Site Scripting injection attacks (XSS). Returns a safe version of that input.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebabel-eu/ebabel-prevent-xss.git"
+  },
+  "keywords": [
+    "games",
+    "module",
+    "javascript"
+  ],
+  "author": "Thomas Amar <hello@ebabel.eu> (https://ebabel.eu/)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ebabel-eu/ebabel-prevent-xss/issues"
+  },
+  "homepage": "https://github.com/ebabel-eu/ebabel-prevent-xss#readme"
+}
