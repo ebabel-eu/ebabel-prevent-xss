@@ -1,8 +1,16 @@
 {
   "name": "ebabel-prevent-xss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Processes an input string to prevent Cross Site Scripting injection attacks (XSS). Returns a safe version of that input.",
   "main": "index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "npm run eslint && jest --coverage",
+    "jsdoc": "node ./node_modules/.bin/jsdoc -d docs ./index.js",
+    "eslint": "node ./node_modules/.bin/eslint index.js test/*.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ebabel-eu/ebabel-prevent-xss.git"
@@ -13,9 +21,20 @@
     "javascript"
   ],
   "author": "Thomas Amar <hello@ebabel.eu> (https://ebabel.eu/)",
+  "contributors": [
+    "Dave Pitts <dgapitts@gmail.com>"
+  ],
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/ebabel-eu/ebabel-prevent-xss/issues"
   },
-  "homepage": "https://github.com/ebabel-eu/ebabel-prevent-xss#readme"
+  "homepage": "https://github.com/ebabel-eu/ebabel-prevent-xss#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "ajv": "^6.5.4",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1",
+    "jest": "^23.6.0",
+    "jsdoc": "^3.5.5"
+  }
 }
