@@ -1,5 +1,5 @@
 # ebabel-prevent-xss
-[![Build Status](https://travis-ci.org/ebabel-eu/ebabel-prevent-xss.svg?branch=master)](https://travis-ci.org/ebabel-eu/ebabel-prevent-xss)
+[![Build Status](https://travis-ci.org/ebabel-games/ebabel-prevent-xss.svg?branch=master)](https://travis-ci.org/ebabel-games/ebabel-prevent-xss)
 
 Processes an input string to prevent Cross Site Scripting injection attacks (XSS). Returns a safe version of that input.
 
